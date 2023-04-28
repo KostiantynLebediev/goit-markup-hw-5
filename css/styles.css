@@ -114,9 +114,9 @@ img {
 	color: var(--primary-barnd-color);
 }
 
-.this-page {
+/*.this-page {
 	position: relative;
-}
+}*/
 
 .nav-logo-item {
 	color: var(--dark-color);
@@ -147,7 +147,7 @@ img {
 	padding-bottom: 24px;
 }
 
-.nav-link.current::after {
+.nav-link.active::after {
 	content: '';
 	position: absolute;
 	width: 100%;
